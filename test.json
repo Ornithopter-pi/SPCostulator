@@ -1,0 +1,14 @@
+{
+    "People": [
+        {
+            "name": "Tyler",
+            "job": "Junior Programmer",
+            "salary": 100000
+        },
+        {
+            "name": "Chris",
+            "job": "Senior Programmer",
+            "salary": 200000
+        }
+    ]
+}
