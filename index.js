@@ -1,51 +1,17 @@
-const text = "Maybe it wasn't a mistake"
+// WHen page loads, check value in text box if divisible by 3, if true, set value of result span to true, if not, set to false
 
 
 
 
-const maincontent = document.getElementById("MainContent")
+const value = document.getElementById("byThree").getAttribute("value")
+let result = document.getElementById("result")
 
 
 
-window.alert(maincontent.innerText)
+if (value % 3 == 0) {
+    result.innerText = "true"
+    
+} else {
+    result.innerText = "false"
+}
 
-
-
-
-maincontent.innerText="fish"
-
-
-
-
-window.alert(maincontent.innerText)
-
-
-
-
-
-
-
-
-
-// if (text.length < 16) { 
-//     window.alert("no")
-// }
-
-// if (text.length > 16) {
-//     window.alert("yes")
-// }
-
-
-
-
-
-//  window.alert(text.length)
-
-
-
-// "Maybe it wasn't a mistake"
-// constant variable that
-// output the number of characters in the string
-// alert yes if >16, alert no if <16 long
-// alert inner text value of Maincontent element
-// edit the text from javascript
